@@ -1,0 +1,8 @@
+prefix=/home/angelique/ros_catkin_ws/install
+
+Name: openni2_launch
+Description: Description of openni2_launch
+Version: 0.2.2
+Cflags: 
+Libs: -L/home/angelique/ros_catkin_ws/install/lib 
+Requires: 
