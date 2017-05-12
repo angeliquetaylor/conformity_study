@@ -53,7 +53,7 @@ openni2_camera/CMakeFiles/openni2_camera_gencfg: /home/angelique/ros_catkin_ws/d
 /home/angelique/ros_catkin_ws/devel/include/openni2_camera/OpenNI2Config.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.h.template
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/angelique/ros_catkin_ws/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating dynamic reconfigure files from cfg/OpenNI2.cfg: /home/angelique/ros_catkin_ws/devel/include/openni2_camera/OpenNI2Config.h /home/angelique/ros_catkin_ws/devel/lib/python2.7/dist-packages/openni2_camera/cfg/OpenNI2Config.py"
-	cd /home/angelique/ros_catkin_ws/build/openni2_camera && ../catkin_generated/env_cached.sh /home/angelique/ros_catkin_ws/src/openni2_camera/cfg/OpenNI2.cfg /opt/ros/indigo/share/dynamic_reconfigure/cmake/.. /home/angelique/ros_catkin_ws/devel/share/openni2_camera /home/angelique/ros_catkin_ws/devel/include/openni2_camera /home/angelique/ros_catkin_ws/devel/lib/python2.7/dist-packages/openni2_camera
+	cd /home/angelique/ros_catkin_ws/build/openni2_camera && ../catkin_generated/env_cached.sh /home/angelique/ros_catkin_ws/build/openni2_camera/setup_custom_pythonpath.sh /home/angelique/ros_catkin_ws/src/openni2_camera/cfg/OpenNI2.cfg /opt/ros/indigo/share/dynamic_reconfigure/cmake/.. /home/angelique/ros_catkin_ws/devel/share/openni2_camera /home/angelique/ros_catkin_ws/devel/include/openni2_camera /home/angelique/ros_catkin_ws/devel/lib/python2.7/dist-packages/openni2_camera
 
 /home/angelique/ros_catkin_ws/devel/share/openni2_camera/docs/OpenNI2Config.dox: /home/angelique/ros_catkin_ws/devel/include/openni2_camera/OpenNI2Config.h
 

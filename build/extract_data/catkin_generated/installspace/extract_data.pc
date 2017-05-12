@@ -1,0 +1,8 @@
+prefix=/home/angelique/ros_catkin_ws/install
+
+Name: extract_data
+Description: Description of extract_data
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/angelique/ros_catkin_ws/install/lib 
+Requires: 

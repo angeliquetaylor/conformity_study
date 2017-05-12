@@ -1,2 +1,2 @@
-conformity_study:openni2_camera:openni2_launch:skeleton_tracker
+conformity_study:extract_data:openni2_camera:openni2_launch:skeleton_tracker
 -DCATKIN_DEVEL_PREFIX=/home/angelique/ros_catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/angelique/ros_catkin_ws/install -G Unix Makefiles

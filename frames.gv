@@ -1,0 +1,23 @@
+digraph G {
+"tracker_depth_frame" -> "tracker/user_1/head"[label="Broadcaster: /play_1494442897842999167\nAverage rate: 15.162 Hz\nMost recent transform: 1494439559.966 ( 3345.144 sec old)\nBuffer length: 4.881 sec\n"];
+"world" -> "tracker_depth_frame"[label="Broadcaster: /play_1494442897842999167\nAverage rate: 10.191 Hz\nMost recent transform: 1494439560.103 ( 3345.008 sec old)\nBuffer length: 4.906 sec\n"];
+"tracker_depth_frame" -> "tracker/user_1/left_elbow"[label="Broadcaster: /play_1494442897842999167\nAverage rate: 15.162 Hz\nMost recent transform: 1494439559.966 ( 3345.144 sec old)\nBuffer length: 4.881 sec\n"];
+"tracker_depth_frame" -> "tracker/user_1/left_foot"[label="Broadcaster: /play_1494442897842999167\nAverage rate: 11.884 Hz\nMost recent transform: 1494439559.966 ( 3345.144 sec old)\nBuffer length: 4.881 sec\n"];
+"tracker_depth_frame" -> "tracker/user_1/left_hand"[label="Broadcaster: /play_1494442897842999167\nAverage rate: 15.162 Hz\nMost recent transform: 1494439559.966 ( 3345.144 sec old)\nBuffer length: 4.881 sec\n"];
+"tracker_depth_frame" -> "tracker/user_1/left_hip"[label="Broadcaster: /play_1494442897842999167\nAverage rate: 15.162 Hz\nMost recent transform: 1494439559.966 ( 3345.144 sec old)\nBuffer length: 4.881 sec\n"];
+"tracker_depth_frame" -> "tracker/user_1/left_knee"[label="Broadcaster: /play_1494442897842999167\nAverage rate: 15.162 Hz\nMost recent transform: 1494439559.966 ( 3345.144 sec old)\nBuffer length: 4.881 sec\n"];
+"tracker_depth_frame" -> "tracker/user_1/left_shoulder"[label="Broadcaster: /play_1494442897842999167\nAverage rate: 15.162 Hz\nMost recent transform: 1494439559.966 ( 3345.144 sec old)\nBuffer length: 4.881 sec\n"];
+"tracker_depth_frame" -> "tracker/user_1/neck"[label="Broadcaster: /play_1494442897842999167\nAverage rate: 15.162 Hz\nMost recent transform: 1494439559.966 ( 3345.144 sec old)\nBuffer length: 4.881 sec\n"];
+"tracker_depth_frame" -> "tracker/user_1/right_elbow"[label="Broadcaster: /play_1494442897842999167\nAverage rate: 15.162 Hz\nMost recent transform: 1494439559.966 ( 3345.144 sec old)\nBuffer length: 4.881 sec\n"];
+"tracker_depth_frame" -> "tracker/user_1/right_foot"[label="Broadcaster: /play_1494442897842999167\nAverage rate: 15.162 Hz\nMost recent transform: 1494439559.966 ( 3345.144 sec old)\nBuffer length: 4.881 sec\n"];
+"tracker_depth_frame" -> "tracker/user_1/right_hand"[label="Broadcaster: /play_1494442897842999167\nAverage rate: 15.162 Hz\nMost recent transform: 1494439559.966 ( 3345.144 sec old)\nBuffer length: 4.881 sec\n"];
+"tracker_depth_frame" -> "tracker/user_1/right_hip"[label="Broadcaster: /play_1494442897842999167\nAverage rate: 15.162 Hz\nMost recent transform: 1494439559.966 ( 3345.144 sec old)\nBuffer length: 4.881 sec\n"];
+"tracker_depth_frame" -> "tracker/user_1/right_knee"[label="Broadcaster: /play_1494442897842999167\nAverage rate: 15.162 Hz\nMost recent transform: 1494439559.966 ( 3345.144 sec old)\nBuffer length: 4.881 sec\n"];
+"tracker_depth_frame" -> "tracker/user_1/right_shoulder"[label="Broadcaster: /play_1494442897842999167\nAverage rate: 15.162 Hz\nMost recent transform: 1494439559.966 ( 3345.144 sec old)\nBuffer length: 4.881 sec\n"];
+"tracker_depth_frame" -> "tracker/user_1/torso"[label="Broadcaster: /play_1494442897842999167\nAverage rate: 15.162 Hz\nMost recent transform: 1494439559.966 ( 3345.144 sec old)\nBuffer length: 4.881 sec\n"];
+"tracker_depth_frame" -> "camera_frame"[label="Broadcaster: /play_1494442897842999167\nAverage rate: 10.191 Hz\nMost recent transform: 1494439560.106 ( 3345.005 sec old)\nBuffer length: 4.906 sec\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1494442905.111"[ shape=plaintext ] ;
+ }->"world";
+}

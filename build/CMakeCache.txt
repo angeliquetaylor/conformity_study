@@ -317,6 +317,12 @@ cv_bridge_DIR:PATH=/opt/ros/indigo/share/cv_bridge/cmake
 //The directory containing a CMake configuration file for dynamic_reconfigure.
 dynamic_reconfigure_DIR:PATH=/opt/ros/indigo/share/dynamic_reconfigure/cmake
 
+//Value Computed by CMake
+extract_data_BINARY_DIR:STATIC=/home/angelique/ros_catkin_ws/build/extract_data
+
+//Value Computed by CMake
+extract_data_SOURCE_DIR:STATIC=/home/angelique/ros_catkin_ws/src/extract_data
+
 //The directory containing a CMake configuration file for gencpp.
 gencpp_DIR:PATH=/opt/ros/indigo/share/gencpp/cmake
 
@@ -462,6 +468,9 @@ skeleton_tracker_BINARY_DIR:STATIC=/home/angelique/ros_catkin_ws/build/skeleton_
 //Value Computed by CMake
 skeleton_tracker_SOURCE_DIR:STATIC=/home/angelique/ros_catkin_ws/src/skeleton_tracker
 
+//The directory containing a CMake configuration file for skeleton_tracking.
+skeleton_tracking_DIR:PATH=skeleton_tracking_DIR-NOTFOUND
+
 //The directory containing a CMake configuration file for smclib.
 smclib_DIR:PATH=/opt/ros/indigo/share/smclib/cmake
 
@@ -605,7 +614,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=6
+CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=7
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
