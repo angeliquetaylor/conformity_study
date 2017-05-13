@@ -1,0 +1,8 @@
+prefix=/home/angelique/ros_catkin_ws/devel
+
+Name: stochhmm
+Description: Description of stochhmm
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/angelique/ros_catkin_ws/devel/lib 
+Requires: 

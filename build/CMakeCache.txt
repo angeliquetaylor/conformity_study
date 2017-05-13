@@ -269,6 +269,12 @@ RT_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/librt.so
 //Enable debian style python package layout
 SETUPTOOLS_DEB_LAYOUT:BOOL=ON
 
+//Value Computed by CMake
+StochHMM_BINARY_DIR:STATIC=/home/angelique/ros_catkin_ws/build/StochHMM
+
+//Value Computed by CMake
+StochHMM_SOURCE_DIR:STATIC=/home/angelique/ros_catkin_ws/src/StochHMM
+
 //LSB Distrib tag
 UBUNTU:BOOL=TRUE
 
@@ -363,6 +369,12 @@ gtest_force_shared_crt:BOOL=OFF
 //Dependencies for the target
 gtest_main_LIB_DEPENDS:STATIC=general;-lpthread;general;gtest;
 
+//Value Computed by CMake
+hmm_BINARY_DIR:STATIC=/home/angelique/ros_catkin_ws/build/hmm
+
+//Value Computed by CMake
+hmm_SOURCE_DIR:STATIC=/home/angelique/ros_catkin_ws/src/hmm
+
 //The directory containing a CMake configuration file for image_transport.
 image_transport_DIR:PATH=/opt/ros/indigo/share/image_transport/cmake
 
@@ -429,6 +441,9 @@ rosbag_storage_DIR:PATH=/opt/ros/indigo/share/rosbag_storage/cmake
 //The directory containing a CMake configuration file for rosconsole.
 rosconsole_DIR:PATH=/opt/ros/indigo/share/rosconsole/cmake
 
+//The directory containing a CMake configuration file for roscp.
+roscp_DIR:PATH=roscp_DIR-NOTFOUND
+
 //The directory containing a CMake configuration file for roscpp.
 roscpp_DIR:PATH=/opt/ros/indigo/share/roscpp/cmake
 
@@ -476,6 +491,18 @@ smclib_DIR:PATH=/opt/ros/indigo/share/smclib/cmake
 
 //The directory containing a CMake configuration file for std_msgs.
 std_msgs_DIR:PATH=/opt/ros/indigo/share/std_msgs/cmake
+
+//Value Computed by CMake
+stochHMM_BINARY_DIR:STATIC=/home/angelique/ros_catkin_ws/build/stochHMM
+
+//Value Computed by CMake
+stochHMM_SOURCE_DIR:STATIC=/home/angelique/ros_catkin_ws/src/stochHMM
+
+//Value Computed by CMake
+stochhmm_BINARY_DIR:STATIC=/home/angelique/ros_catkin_ws/build/stochhmm
+
+//Value Computed by CMake
+stochhmm_SOURCE_DIR:STATIC=/home/angelique/ros_catkin_ws/src/stochhmm
 
 //The directory containing a CMake configuration file for tf2.
 tf2_DIR:PATH=/opt/ros/indigo/share/tf2/cmake
@@ -614,7 +641,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=7
+CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=8
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

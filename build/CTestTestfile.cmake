@@ -7,6 +7,7 @@
 SUBDIRS(gtest)
 SUBDIRS(openni2_launch)
 SUBDIRS(conformity_study)
+SUBDIRS(stochhmm)
 SUBDIRS(openni2_camera)
 SUBDIRS(extract_data)
 SUBDIRS(skeleton_tracker)
